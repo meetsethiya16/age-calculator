@@ -85,3 +85,25 @@ body {
   font-size: 4rem;
   color: white;
 }
+
+@media (max-width: 768px) {
+  .container h1 {
+    font-size: 32px;
+  }
+
+  .time-container {
+    gap: 10px;
+  }
+
+  .time-container h2 {
+    font-size: 20px;
+  }
+
+  .time-container h2 div {
+    font-size: 32px;
+  }
+
+  .settings .fa-cog {
+    font-size: 32px;
+  }
+}
